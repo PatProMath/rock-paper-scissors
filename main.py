@@ -28,7 +28,6 @@ scissors = '''
 '''
 game_images = [rock, paper, scissors]
 
-#Write your code below this line 👇
 player = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors \n")) # Never forgetting to wrap the input method in an int() method.
 
 if player <= 2 and player >= 0:
